@@ -1,8 +1,8 @@
 'use strict';
-const NAME='wmu-site-regional-anatomy-20261126-usericons-a5db701d76';
+const NAME='wmu-site-regional-anatomy-20261126-usericons-a5db701d76-years20261128';
 const PREFIX='wmu-site-regional-anatomy-';
 const BASE=new URL(self.registration.scope);
-const FILES=['./','index.html','styles.css?v=20261125-ra-2d2f7cacb2a7','site-links.js?v=20261125-ra-2d2f7cacb2a7','data.js?v=20261125-ra-2d2f7cacb2a7','learning.js?v=20261125-ra-2d2f7cacb2a7','app.js?v=20261125-ra-2d2f7cacb2a7','icons/icon-32.png','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/maskable-512.png','icons/apple-touch-icon.png'].map(p=>new URL(p,BASE).href);
+const FILES=['source-year-data.js?v=20261128-source-years','source-years-ui.js?v=20261128-source-years','source-years.css?v=20261128-source-years','./','index.html','styles.css?v=20261125-ra-2d2f7cacb2a7','site-links.js?v=20261125-ra-2d2f7cacb2a7','data.js?v=20261125-ra-2d2f7cacb2a7','learning.js?v=20261125-ra-2d2f7cacb2a7','app.js?v=20261128-source-years','icons/icon-32.png','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/maskable-512.png','icons/apple-touch-icon.png'].map(p=>new URL(p,BASE).href);
 const INDEX=new URL('index.html',BASE).href;
 const STATIC=new Set(FILES);
 const FRESH=new Set(['data.js','site-links.js'].map(p=>new URL(p,BASE).pathname));

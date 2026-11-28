@@ -1,0 +1,5 @@
+.source-year{display:inline-block;margin:4px 6px 3px 0;padding:3px 8px;border:1px solid #ccdce6;border-radius:6px;background:#f1f6fa;color:#38576b;font-size:.875rem;font-weight:500;line-height:1.6;vertical-align:middle;white-space:normal;overflow-wrap:anywhere}
+.question-year{margin:6px 0 13px}
+.citations .source-year,.citation .source-year,.kg-ref .source-year{font-size:.875rem}
+.source-years-policy{font-size:12px;line-height:1.8;color:#647583;margin:12px 0 20px}
+@media(max-width:600px){.source-year{max-width:100%}}
